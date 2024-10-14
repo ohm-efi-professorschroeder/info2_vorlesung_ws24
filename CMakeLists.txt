@@ -5,12 +5,12 @@ set(CMAKE_C_STANDARD 17)
 
 add_executable(01_bufferoverflow Termin_01/bufferoverflow.c)
 
-#add_executable(02_primzahl Termin_02/primzahl/primzahl.c)
-#add_executable(02_sortierung
-#        Termin_02/sortierung/sortierung.c
-#        Termin_02/sortierung/sortierungsvergleich.c
-#        Termin_02/sortierung/stoppuhr.c
-#        Termin_02/sortierung/zufallsarray.c)
+add_executable(02_primzahl Termin_02/primzahl/primzahl.c)
+add_executable(02_sortierung
+        Termin_02/sortierung/sortierung.c
+        Termin_02/sortierung/sortierungsvergleich.c
+        Termin_02/sortierung/stoppuhr.c
+        Termin_02/sortierung/zufallsarray.c)
 #
 #add_executable(03_anfangsbuchstabe
 #        Termin_03/anfangsbuchstabe.c
