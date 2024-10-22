@@ -11,15 +11,15 @@ add_executable(02_sortierung
         Termin_02/sortierung/sortierungsvergleich.c
         Termin_02/sortierung/stoppuhr.c
         Termin_02/sortierung/zufallsarray.c)
-#
-#add_executable(03_anfangsbuchstabe
-#        Termin_03/anfangsbuchstabe.c
-#        Termin_03/eingabe.c)
-#add_executable(03_eingabe
-#        Termin_03/eingabe.c
-#        Termin_03/eingabeTest.c)
-#add_executable(03_laengen Termin_03/laengen.c)
-#add_executable(03_fehler Termin_03/fehler.c)
+
+add_executable(03_anfangsbuchstabe
+        Termin_03/anfangsbuchstabe.c
+        Termin_03/eingabe.c)
+add_executable(03_eingabe
+        Termin_03/eingabe.c
+        Termin_03/eingabeTest.c)
+add_executable(03_laengen Termin_03/laengen.c)
+add_executable(03_fehler Termin_03/fehler.c)
 #
 #add_executable(04_stringaddierer Termin_04/stringaddierer.c Termin_03/eingabe.c)
 #target_include_directories(04_stringaddierer PRIVATE ./Termin_03)
