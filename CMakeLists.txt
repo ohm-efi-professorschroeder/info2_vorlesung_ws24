@@ -24,10 +24,9 @@ add_executable(03_fehler Termin_03/fehler.c)
 add_executable(04_stringaddierer Termin_04/stringaddierer.c Termin_03/eingabe.c)
 target_include_directories(04_stringaddierer PRIVATE ./Termin_03)
 add_executable(04_stringtausch Termin_04/stringtausch.c)
-#
-#add_executable(05_stringsortierung Termin_05/stringsortierung.c)
-#add_executable(05_const Termin_05/const.c)
-#add_executable(05_callbacks Termin_05/callbacks.c)
+
+add_executable(05_stringsortierung Termin_05/stringsortierung.c)
+add_executable(05_const Termin_05/const.c)
 #
 #add_executable(06_namesarchive
 #        Termin_06/namesarchive.c
