@@ -27,11 +27,11 @@ add_executable(04_stringtausch Termin_04/stringtausch.c)
 
 add_executable(05_stringsortierung Termin_05/stringsortierung.c)
 add_executable(05_const Termin_05/const.c)
-#
-#add_executable(06_namesarchive
-#        Termin_06/namesarchive.c
-#        Termin_06/main.c)
-#
+
+add_executable(06_namesarchive
+        Termin_06/namesarchive.c
+        Termin_06/main.c)
+
 #add_executable(07_namesarchive_dynamic
 #        Termin_07/namesarchive.c
 #        Termin_07/main.c)

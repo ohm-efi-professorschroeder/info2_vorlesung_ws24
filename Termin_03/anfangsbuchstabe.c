@@ -23,7 +23,7 @@ int main()
 {
     char text[MAX_TEXT_LEN];
 
-    gibTextEin("Geben Sie einen Text nur mit Kleinbuchstaben ein: ", text, MAX_TEXT_LEN);
+    gibTextEin("geben Sie einen Text nur mit Kleinbuchstaben ein: ", text, MAX_TEXT_LEN);
 
     printf("Der bearbeitete Text lautet:\n\"%s\"\n", schreibeAnfangGross(text, MAX_TEXT_LEN));
 
