@@ -32,10 +32,10 @@ add_executable(06_namesarchive
         Termin_06/namesarchive.c
         Termin_06/main.c)
 
-#add_executable(07_namesarchive_dynamic
-#        Termin_07/namesarchive.c
-#        Termin_07/main.c)
-#
+add_executable(07_namesarchive_dynamic
+        Termin_07/namesarchive.c
+        Termin_07/main.c)
+
 #add_executable(08_namesarchive_structs
 #        Termin_08/namesarchive.c
 #        Termin_08/main.c)
