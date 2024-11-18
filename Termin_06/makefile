@@ -1,5 +1,5 @@
 namesarchive: main.o libnamesarchive.so
-		gcc -Wall -o namesarchive.exe main.o libnamesarchive.so
+		gcc -Wall -o namesarchive main.o libnamesarchive.so
 		
 main.o: main.c
 		gcc -c -Wall main.c
@@ -13,4 +13,4 @@ libnamesarchive.so: namesarchive.o
 clean:
 #		del /f namesarchive.exe *.o *.so
 #       Comment line above and uncomment line below for UNIX systems
-		rm -f namesarchive.exe *.o *.so
+		rm -f namesarchive *.o *.so

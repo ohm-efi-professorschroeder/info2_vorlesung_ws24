@@ -38,7 +38,7 @@ int addNameSorted(const char* name)
 
     int index = 0;
 
-    while(index < MAX_NAMES && strcmp(names[index], name) < 0)
+    while(index < numNames && strcmp(names[index], name) < 0)
         index++;
 
     for(int i = numNames; i > index; i--)
@@ -52,7 +52,6 @@ int addNameSorted(const char* name)
 int removeName(const char *name)
 {
     int index = 0;
-    int found = 0;
 
     while(index <= numNames && strcmp(names[index], name) != 0)
         index++;
@@ -61,7 +60,7 @@ int removeName(const char *name)
         return 0;
 
     for(int i = index; i < numNames; i++)
-        strcpy(names[index], names[index+1]);
+        strcpy(names[i], names[i+1]);
 
     numNames--;
     return 1;
