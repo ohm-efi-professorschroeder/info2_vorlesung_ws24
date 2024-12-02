@@ -41,12 +41,12 @@ add_executable(08_namesarchive_structs
         Termin_08/main.c)
 add_executable(08_callbyreference
         Termin_08/callByReference.c)
-#
-#add_executable(09_namesarchive_lists
-#        Termin_09/namesarchive.c
-#        Termin_09/stringlist.c
-#        Termin_09/main.c)
-#
+
+add_executable(09_namesarchive_lists
+        Termin_09/namesarchive.c
+        Termin_09/stringlist.c
+        Termin_09/main.c)
+
 #add_executable(10_namesarchive_bst Termin_10/main.c
 #        Termin_10/namesarchive.c
 #        Termin_10/stringbst.c)
