@@ -51,17 +51,14 @@ add_executable(10_namesarchive_bst Termin_10/main.c
         Termin_10/namesarchive.c
         Termin_10/stringbst.c)
 
-#add_executable(11_bmp
-#        Termin_11/bmp/bmp.c
-#        Termin_11/bmp/main.c)
-#file(COPY ${CMAKE_CURRENT_LIST_DIR}/Termin_11/bmp/test.bmp
-#        DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
-#
-#add_executable(11_namesarchive_files
-#        Termin_11/namesarchive/main.c
-#        Termin_11/namesarchive/namesarchive.c
-#        Termin_10/stringbst.c)
-#file(COPY ${CMAKE_CURRENT_LIST_DIR}/Termin_11/namesarchive/names.txt
-#        DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
-#add_executable(12_santa Termin_12/main.c
-#        Termin_12/bst.c)
+add_executable(11_namesarchive_files
+        Termin_11/namesarchive/main.c
+        Termin_11/namesarchive/namesarchive.c
+        Termin_10/stringbst.c)
+file(COPY ${CMAKE_CURRENT_LIST_DIR}/Termin_11/namesarchive/names.txt
+        DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
+
+add_executable(12_santa Termin_12/main.c
+        Termin_12/bst.c)
+
+add_executable(99_tafel tafel.c)

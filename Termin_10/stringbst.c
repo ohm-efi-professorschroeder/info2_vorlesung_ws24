@@ -79,9 +79,9 @@ StringBSTNode_t* findString(StringBSTNode_t* root, const char *string)
     if(root == 0)
         return 0;
 
-    if(strcmp(root->string, string) == 0)
+    if(strcmp(string, root->string) == 0)
         return root;
-    else if(strcmp(root->string, string) < 0)
+    else if(strcmp(string, root->string) < 0)
         return findString(root->left, string);
     else
         return findString(root->right, string);
@@ -92,10 +92,10 @@ StringBSTNode_t* delete(StringBSTNode_t *root, const char* string)
     if(root == 0)
         return 0;
 
-    if(strcmp(root->string, string) < 0) {
+    if(strcmp(string, root->string) < 0) {
         root->left = delete(root->left, string);
     }
-    else if(strcmp(root->string, string) > 0) {
+    else if(strcmp(string, root->string) > 0) {
         root->right = delete(root->right, string);
     }
     else
