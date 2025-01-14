@@ -56,3 +56,5 @@ cmake-build-*/
 
 # VSCode
 build/
+
+.DS_Store
